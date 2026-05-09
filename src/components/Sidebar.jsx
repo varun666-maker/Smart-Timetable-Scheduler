@@ -7,10 +7,10 @@ const hodNav = [
   {to:'/hod/dashboard',icon:'LayoutDashboard',label:'Dashboard'},
   {to:'/hod/setup',icon:'ClipboardList',label:'Setup Wizard'},
   {to:'/hod/timetable',icon:'CalendarDays',label:'Timetable Review'},
-  {to:'/hod/conflicts',icon:'AlertTriangle',label:'Conflict Detection'},
   {to:'/hod/workload',icon:'BarChart3',label:'Faculty Workload'},
   {to:'/hod/leave',icon:'FileText',label:'Leave Requests'},
   {to:'/hod/announcements',icon:'Megaphone',label:'Announcements'},
+  {to:'/hod/users',icon:'Users',label:'Manage Users'},
   {to:'/hod/settings',icon:'Settings',label:'Settings'},
 ]
 const facultyNav = [
@@ -27,7 +27,6 @@ const studentNav = [
   {to:'/student/dashboard',icon:'LayoutDashboard',label:'Dashboard'},
   {to:'/student/timetable',icon:'CalendarDays',label:'My Timetable'},
   {to:'/student/subjects',icon:'BookOpen',label:'Subjects'},
-  {to:'/student/exams',icon:'ClipboardList',label:'Exam Schedule'},
   {to:'/student/notifications',icon:'Bell',label:'Notifications'},
   {to:'/student/calendar',icon:'Calendar',label:'Calendar'},
   {to:'/student/profile',icon:'UserCircle',label:'Profile'},

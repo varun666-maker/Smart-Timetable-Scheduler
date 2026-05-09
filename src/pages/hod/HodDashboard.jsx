@@ -1,4 +1,5 @@
 import PortalLayout from '../../components/PortalLayout'
+import ClassroomStatus from '../../components/ClassroomStatus'
 import { recentActivity } from '../../data/mockData'
 import { CalendarDays, CheckCircle, Building2, AlertTriangle, Clock } from 'lucide-react'
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts'
@@ -109,6 +110,8 @@ export default function HodDashboard() {
           ))}
         </div>
       </div>
+      
+      <ClassroomStatus role="hod" />
     </PortalLayout>
   )
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import PortalLayout from '../../components/PortalLayout'
+import ClassroomStatus from '../../components/ClassroomStatus'
 import { todayScheduleStudent, announcements } from '../../data/mockData'
 import { BookOpen, Clock, Coffee, BarChart3, MessageCircle, Send, X } from 'lucide-react'
 
@@ -7,7 +8,6 @@ const stats = [
   {label:"Today's Classes",value:'5',icon:BookOpen,color:'#4F46E5',bg:'rgba(79,70,229,0.1)'},
   {label:'Next Class',value:'DS Lab · 1PM',icon:Clock,color:'#14B8A6',bg:'rgba(20,184,166,0.1)'},
   {label:'Free Periods',value:'3',icon:Coffee,color:'#F59E0B',bg:'rgba(245,158,11,0.1)'},
-  {label:'Attendance %',value:'78%',icon:BarChart3,color:'#3B82F6',bg:'rgba(59,130,246,0.1)'},
 ]
 const statusColor = {Completed:'badge-success',Ongoing:'badge-primary',Upcoming:'badge-info'}
 
@@ -49,6 +49,7 @@ export default function StudentDashboard() {
           ))}
         </div>
       </div>
+      <ClassroomStatus role="student" />
       <div className="fab" onClick={()=>setChat(!chat)}>{chat?<X size={24}/>:<MessageCircle size={24}/>}</div>
       {chat&&(
         <div className="chat-panel">

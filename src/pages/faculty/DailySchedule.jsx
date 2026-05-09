@@ -41,7 +41,6 @@ export default function DailySchedule() {
             <div className="flex justify-between"><span className="text-muted text-sm">Status</span><span className={`badge ${statusColor[s.status]}`}>{s.status}</span></div>
           </div>
           <div className="flex gap-12 mt-24">
-            <button className="btn btn-primary"><ClipboardCheck size={16}/>Take Attendance</button>
             <button className="btn btn-secondary"><Users size={16}/>View Students</button>
           </div>
         </div>

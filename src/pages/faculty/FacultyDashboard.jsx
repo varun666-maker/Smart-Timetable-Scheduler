@@ -1,4 +1,5 @@
 import PortalLayout from '../../components/PortalLayout'
+import ClassroomStatus from '../../components/ClassroomStatus'
 import { todayScheduleFaculty, announcements } from '../../data/mockData'
 import { BookOpen, Calendar, Layers, BarChart3, FileText } from 'lucide-react'
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts'
@@ -62,6 +63,7 @@ export default function FacultyDashboard() {
           </div>
         </div>
       </div>
+      <ClassroomStatus role="faculty" />
     </PortalLayout>
   )
 }

@@ -120,5 +120,13 @@ export const recentActivity = [
   {text:'Dr. Rajesh Kumar submitted leave request',time:'1 hour ago'},
   {text:'Room 101 schedule updated',time:'2 hours ago'},
   {text:'New announcement posted by Dean Office',time:'3 hours ago'},
-  {text:'Conflict resolved: Room 102 double booking',time:'5 hours ago'},
+  {text:'Room 102 marked as occupied',time:'5 hours ago'},
+]
+
+export const classroomStatusData = [
+  { name: 'Room 101', occupied: true, faculty: 'Dr. Rajesh Kumar', subject: 'Data Structures' },
+  { name: 'Room 102', occupied: false, faculty: '', subject: '' },
+  { name: 'Lab A1', occupied: true, faculty: 'Prof. Anita Sharma', subject: 'OS Lab' },
+  { name: 'Lab A2', occupied: false, faculty: '', subject: '' },
+  { name: 'Seminar Hall', occupied: false, faculty: '', subject: '' },
 ]

@@ -34,9 +34,8 @@ export default function StudentProfile() {
         <div>
           <div className="card mb-24">
             <div className="card-title mb-16">Academic Overview</div>
-            <div className="grid-3 mb-24">
+            <div className="grid-2 mb-24">
               <div style={{padding:16,background:'var(--surface)',borderRadius:'var(--radius-sm)',textAlign:'center'}}><div className="stat-value text-primary">8.8</div><div className="text-xs text-muted mt-8">CGPA</div></div>
-              <div style={{padding:16,background:'var(--surface)',borderRadius:'var(--radius-sm)',textAlign:'center'}}><div className="stat-value text-success">85%</div><div className="text-xs text-muted mt-8">Attendance</div></div>
               <div style={{padding:16,background:'var(--surface)',borderRadius:'var(--radius-sm)',textAlign:'center'}}><div className="stat-value text-warning">90</div><div className="text-xs text-muted mt-8">Credits Earned</div></div>
             </div>
             <button className="btn btn-secondary w-full"><BookOpen size={16} />View Academic Records</button>
